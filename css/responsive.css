@@ -1,0 +1,79 @@
+@media all and (max-width : 1158px){ 
+	.mid{ 
+		width:90%;
+	}
+	.logo{ 
+		width:15%;
+	}
+	.menu{ 
+		width:85%;
+	}
+}
+
+@media all and (max-width : 1016px){  
+	.social{ 
+		left:0px;
+		right:0px;
+		top:155px;
+		margin:auto;
+	}
+	.team-cont { 
+		margin-left:20px;
+		margin-top:60px;
+	}
+	
+	.service-left{ 
+		width:100%;
+		float:none;
+	}
+	
+	.service-right{ 
+		width:100%;
+		float:none;
+	}
+}
+
+@media all and (max-width : 848px){ 
+	.logo{ 
+		width:100%;
+		float:none;
+	}
+	.logo img{ 
+		margin:auto; 
+		display:block;
+	}
+	.menu { 
+		width:100%;
+		float:none; 
+	}
+	.menu ul{ 
+		text-align:center;
+		width:100%;
+	}
+	.menu > a{ 
+		display:block;
+		float:none;
+		width:100px;
+		text-align:center;
+		margin:auto;
+		
+	}
+	.box{ 
+		height:200px;
+	}
+	
+}
+
+@media all and (max-width : 768px){ 
+	.box{ 
+		width:45%;
+	}
+}
+@media all and (max-width : 497px){ 
+	.box{ 
+		width:80%;
+		display:block;
+		margin:auto;
+		margin-top:10px;
+	}
+}
